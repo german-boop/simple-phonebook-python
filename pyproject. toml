@@ -1,1 +1,10 @@
+[project]
+name = "simple-phonebook"
+version = "0.1.0"
+description = "A simple interactive phonebook with emojis in Python"
+authors = [{ name = "Your Name" }]
+readme = "README.md"
+requires-python = ">=3.8"
 
+[tool.pytest.ini_options]
+pythonpath = ["src"]
